@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\shrad\.android\build-cache\59f1eaa93f6a3455afb2afae428614c0350f339e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\shrad\Documents\KiwiCommentApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56cdd0a6bfd31c5a66fcee452d3707c528f677d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\shrad\Documents\KiwiCommentApplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\shrad\Documents\KiwiCommentApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9730180d5ee7bc9fd6d631ca6743f965fdbfe1db\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\shrad\.android\build-cache\e23ad4e40d11c8da6642ac9846fd89075242a213\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="C:\Users\shrad\Documents\KiwiCommentApplication\app\build\intermediates\pre-dexed\debug\classes_f11080136e14850a6d61f3188b9de49079f7e608.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\shrad\Documents\KiwiCommentApplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e934202eca3e57ee13475bc528066e753308e3f">
+        <dex dex="C:\Users\shrad\Documents\KiwiCommentApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8b61a40e3ae845130acc868d0e6691ee056efaca\classes.dex" />
+    </item>
+
+</items>
