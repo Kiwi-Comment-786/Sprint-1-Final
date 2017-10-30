@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shrad.kiwicommentapplication.Search">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="Log-In"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_signup"
+        android:orderInCategory="100"
+        android:title="Sign-Up"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_signin"
+        android:orderInCategory="100"
+        android:title="Sign-In"
+        app:showAsAction="never" />
+</menu>

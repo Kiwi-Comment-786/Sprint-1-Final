@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bar"
+    tools:context="com.example.shrad.kiwicommentapplication.UpdateShopDetails">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ShopId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Press the edit button to edit details \nShop ID:"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp">
+            </TextView>
+            <EditText
+                android:id="@+id/shopIdTxt"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:enabled="true">
+            </EditText>
+            <ImageButton
+                android:id="@+id/editButton"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                android:onClick="onClicks"/>
+
+            <TextView
+                android:id="@+id/ShopName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop name"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp">
+            </TextView>
+            <EditText
+                android:id="@+id/shopNameTxt"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:enabled="false">
+            </EditText>
+            <TextView
+                android:id="@+id/regNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business registration number"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp">
+            </TextView>
+            <EditText
+                android:id="@+id/regnoTxt"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:enabled="false">
+            </EditText>
+
+            <TextView
+                android:id="@+id/placesType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place type:"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp">
+            </TextView>
+            <EditText
+                android:id="@+id/placesTypeText"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:enabled="false">
+            </EditText>
+
+            <TextView
+                android:id="@+id/shopPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop Phone number"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp">
+            </TextView>
+            <EditText
+                android:id="@+id/shopPhoneNumberTxt"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:enabled="false">
+            </EditText>
+
+            <TextView
+                android:id="@+id/shopwebsiteaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop website address"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp"
+                >
+            </TextView>
+            <EditText
+                android:id="@+id/shopwebsiteaddressTxt"
+                android:layout_height="wrap_content"
+                android:inputType="textUri"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:enabled="false">
+            </EditText>
+
+            <TextView
+                android:id="@+id/streetAddress1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Street address"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp">
+            </TextView>
+            <EditText
+                android:id="@+id/streetAddress1Txt"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:enabled="false">
+            </EditText>
+
+            <TextView
+                android:id="@+id/ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ratings"
+                android:textSize="8pt"
+                android:layout_marginLeft="16dp">
+            </TextView>
+            <EditText
+                android:id="@+id/ratingsTxt"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:enabled="false">
+            </EditText>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Shop Data"
+                android:id="@+id/btnUpdateData"
+                android:onClick="onClicks"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Shop Owner data"
+                android:id="@+id/btnViewAllData"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign out"
+                android:id="@+id/signOutBtn"
+                android:onClick="onClicks"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Shop"
+                android:id="@+id/btnDeleteData"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Main portal"
+                android:id="@+id/ViewData"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

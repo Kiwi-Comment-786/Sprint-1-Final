@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KiwiCommentApplication</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nandos">
+    <a href="www.nandos.co.nz">Home page</a>
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map">Map</string>
+</resources>
