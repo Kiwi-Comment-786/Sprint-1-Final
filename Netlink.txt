@@ -1,0 +1,7 @@
+
+findViewById(R.id.[code of the netlink]).setOnCLickListener(new View.OnClickListener(){
+	@Override
+	public void onClick(View v){
+		startActiviy(new Intent(Intent.ACTION_VIEW,Uri.parse("http://abc.com.nz"))};
+});
+
